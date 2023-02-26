@@ -30,9 +30,8 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
       <div className="fixed w-full h-40 md:h-48 bg-black text-white z-20 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
           <a
-            href="https://www.instagram.com/rescatandoangelessinvozgrupo/"
-            target="_blank"
-            rel="noreferrer"
+            href="https://adopta-angeles-sin-voz.netlify.app/"
+            
           >
             <div className="flex items-center  md:mt-5 gap-5 ">
               <div className="flex flex-col">
