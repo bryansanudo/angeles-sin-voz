@@ -40,7 +40,7 @@ const Adoption = () => {
           <p className="border-l-4 pl-4 odd:border-[#b7a8e6] even:border-[#b7a8e6]">
           Requisito 5 Adopción
           </p>
-          <a href="">
+          <a href="https://adopta-angeles-sin-voz.netlify.app/peluditos">
 
           <button className=" rounded-lg shadow-lg shadow-[#b7a8e6] p-4 mt-5 w-full hover:scale-105 duration-300">
             Adoptar
