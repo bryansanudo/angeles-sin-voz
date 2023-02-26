@@ -43,7 +43,7 @@ const ContactForm = () => {
           </div>
         </div>
         <div className="flex items-center justify-center hover:scale-105 duration-200 ">
-          <button className=" rounded-lg shadow-lg shadow-thPrimary p-4 mt-5 w-40">
+          <button className=" rounded-lg shadow-lg shadow-[#223196] p-4 mt-5 w-40">
             enviar
           </button>
         </div>

@@ -12,12 +12,12 @@ const Contact = () => {
         <div className="w-full lg:w-1/2 h-full p-4 flex items-center content-center flex-col  ">
           <img
             src={contact}
-            className="object-cover duration-300 w-[350px] h-[300px] md:w-[500px] md:h-[420px] shadow-md shadow-thPrimary rounded-lg"
+            className="object-cover duration-300 w-[350px] h-[300px] md:w-[500px] md:h-[420px] shadow-md shadow-[#223196] rounded-lg"
           />
 
-          <div className="w-[200px] sm:w-[350px]  md:w-[500px]  mt-10 group flex items-center justify-center gap-6 rounded-lg shadow-lg shadow-thPrimary  p-3  ">
+          <div className="w-[200px] sm:w-[350px]  md:w-[500px]  mt-10 group flex items-center justify-center gap-6 rounded-lg shadow-lg shadow-[#223196]  p-3  ">
             <a
-              href="https://www.instagram.com/sarazapata144/"
+              href="https://www.instagram.com/rescatandoangelessinvozgrupo/"
               target="_blank"
               rel="noreferrer"
               className="group-hover:scale-105 duration-200"
@@ -25,7 +25,7 @@ const Contact = () => {
               <FaInstagram size={40} />
             </a>
             <a
-              href="https://www.facebook.com/sara.zapataarias.5"
+              href="https://www.instagram.com/xrescatandoangelessinvozgrupo/"
               target="_blank"
               rel="noreferrer"
               className="group-hover:scale-105 duration-200"
@@ -33,7 +33,7 @@ const Contact = () => {
               <FaFacebook size={40} />
             </a>
             <a
-              href="https://www.facebook.com/sara.zapataarias.5"
+              href="https://www.instagram.com/rescatandoangelessinvozgrupo/"
               target="_blank"
               rel="noreferrer"
               className="group-hover:scale-105 duration-200"

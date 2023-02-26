@@ -1,9 +1,9 @@
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+
 import { Link } from "react-scroll";
 
-import logoSara from "@/assets/logoSara.jpg";
-import logoSara1 from "@/assets/logoSara1.jpg";
+import coronel from '@/assets/coronel.jpg'
 
 const Navbar = ({ isMenuShown, setIsMenuShown }) => {
   const links = [
@@ -41,9 +41,9 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
               <p className="">Ángeles sin voz </p>
               </div>
               <img
-                src={logoSara}
+                src={coronel}
                 alt=""
-                className="rounded-full object-cover md:w-32 md:h-32 w-28 h-28  shadow-thPrimary hover:shadow-thSecondary duration-300 shadow-xl cursor-pointer"
+                className="rounded-full object-cover md:w-32 md:h-32 w-28 h-28  shadow-[#223196] hover:shadow-thSecondary duration-300 shadow-xl cursor-pointer"
               />
             </div>
           </a>
@@ -52,7 +52,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
             <ul className="flex">
               {links.map(({ id, link }) => (
                 <Link key={id} to={link} smooth duration={500}>
-                  <li className="p-4 uppercase duration-300 hover:text-thSecondary cursor-pointer">
+                  <li className="p-4 uppercase duration-300 hover:text-[#223196] cursor-pointer">
                     {link}
                   </li>
                 </Link>
